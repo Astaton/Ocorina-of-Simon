@@ -1,0 +1,182 @@
+body{
+	background-color: #319131;
+}
+h1{
+	text-align: center;
+}
+#message{
+	text-align: center;
+}
+
+#heartsWrapper{
+	margin-left: 10px;
+}
+
+#ocorinaShadowSvg, #heartsShadowSvg{
+	height: 0px;
+	width: 0px;
+}
+
+#ocorina{
+	filter: url(#ocorinaDropShadow);
+}
+
+.menuButton{
+	
+}
+
+.menuButton:active{
+	box-shadow: 1px 1px 5px white;
+}
+
+.hearts{
+	fill:none;
+	fill-rule:evenodd;
+	filter: url(#heartsDropShadow);
+	stroke:#ffffff;
+	stroke-width:2.50500011;
+	stroke-miterlimit:4;
+	stroke-dasharray:none;
+	stroke-opacity:1
+}
+
+#ocorinaInnerWrapper{
+	position: relative;
+	max-width: 768px;
+	margin: 50px auto;
+}
+
+#leftButton{
+	fill: #ffcd00; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.242807;
+}
+
+#leftButtonOutline{
+	opacity: 1; fill: none; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke: #ff9e01; 
+	stroke-dasharray: none; 
+	stroke-linecap: round; 
+	stroke-linejoin: round; 
+	stroke-miterlimit: 4; 
+	stroke-opacity: 1; 
+	stroke-width: 0.7;
+}
+
+#leftButtonHighlight{
+	fill: #ffeea9; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.305251;
+}
+
+#upButton{
+fill: #ffcd00; 
+fill-opacity: 1; 
+fill-rule: evenodd; 
+stroke-width: 0.242807;
+}
+
+#upButtonOutline{
+	opacity: 1; fill: none; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke: #ff9e01; 
+	stroke-dasharray: none; 
+	stroke-linecap: round; 
+	stroke-linejoin: round; 
+	stroke-miterlimit: 4; 
+	stroke-opacity: 1; 
+	stroke-width: 0.7;
+}
+
+#upButtonHighlight{
+	fill: #ffeea9; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.305251;
+}
+
+#downButton{
+	fill: #ffcd00; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.242807;
+}
+#downButtonOutline{
+	opacity: 1; fill: none; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke: #ff9e01; 
+	stroke-dasharray: none; 
+	stroke-linecap: round; 
+	stroke-linejoin: round; 
+	stroke-miterlimit: 4; 
+	stroke-opacity: 1; 
+	stroke-width: 0.7;
+}
+
+#downButtonHighlight{
+	fill: #ffeea9; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.305251;
+}
+
+#rightButton{
+	fill: #ffcd00; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.242807;
+}
+
+#rightButtonOutline{
+	opacity: 1; fill: none; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke: #ff9e01; 
+	stroke-dasharray: none; 
+	stroke-linecap: round; 
+	stroke-linejoin: round; 
+	stroke-miterlimit: 4; 
+	stroke-opacity: 1; 
+	stroke-width: 0.7;
+}
+
+#rightButtonHighlight{
+	fill: #ffeea9; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.305251;
+}
+
+#aButton{
+	fill: #8a5ec5; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.242807;
+}
+
+#aButtonOutline{
+	opacity: 1; 
+	fill: none; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke: #682dc5; 
+	stroke-dasharray: none; 
+	stroke-linecap: round; 
+	stroke-linejoin: round; 
+	stroke-miterlimit: 4; 
+	stroke-opacity: 1; 
+	stroke-width: 0.7;
+}
+
+#aButtonHighlight{
+	fill: #eec5e9; 
+	fill-opacity: 1; 
+	fill-rule: evenodd; 
+	stroke-width: 0.305251;
+}
